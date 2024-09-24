@@ -1,0 +1,31 @@
+/* table, th, td {
+    border: 1px solid red;
+    border-collapse: collapse;
+    } */
+    /* div{
+       width: 50%; 
+    } */
+
+     /* th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    border-radius: 10px;
+    }  */
+
+    /* table {
+        background-color: #ce9c2eda;
+        border-style: dotted;
+        border-width: 5px;
+        border-color: red;
+
+        width: 100%;
+
+         border: 1px  red;
+      } */
+
+      table, th, td {
+        border: 1px solid black;
+      }
+      th{
+        text-align: left;
+      }

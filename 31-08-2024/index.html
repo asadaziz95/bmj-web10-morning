@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Images extensions
+    - jpeg
+    - png
+    - webp 
+    - svg 
+    - gif
+<h2>Images from local folder</h2>
+    <img src="./images/ak-flag.webp" alt="pakistan flag"  width="250" height="150" />
+<h2>Images from URL</h2>
+<img src="https://picsum.photos/200/200" alt="Dummy image">
+
+<h2>Images from url</h2>
+<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="w3school" >
+
+<h2>Gif images</h2>
+<img src="./images/sparkles.gif" alt="sparkles" width="250" height="150" >
+
+<h2>Dummy svg</h2>
+<img src="./images/dummysvg.svg" alt="dummy svg"> 
+border: width solid red 
+<h2>Background Images</h2>
+<p style="border:1px solid red;background-image: url(./images/pak-flag.webp);background-repeat: no-repeat; background-size: cover;background-attachment:fixed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nihil natus, sapiente earum, quibusdam pariatur cumque et quo harum neque esse adipisci inventore quas perferendis at molestias nemo quae sint.
+</p>
+-->
+<picture>
+    <source media="(min-width: 650px)" srcset="./images/img_food.jpg">
+    <source media="(min-width: 465px)" srcset="./images/img_car.jpg">
+    <img src="./images/img_girl.jpg" style="width:auto;">
+
+</picture>
+</body>
+</html>
